@@ -1,0 +1,29 @@
+criar projeto - API level 18
+
+
+        maven {
+            url "https://maven.google.com"
+        }
+
+        no allprojects no gradle do projeto
+
+            compile "android.arch.lifecycle:extensions:1.1.0"
+            compile "android.arch.persistence.room:runtime:1.0.0"
+            annotationProcessor "android.arch.lifecycle:compiler:1.1.0"
+            annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+
+                dataBinding {
+                    enabled = true
+                }
+
+                dentro do android
+
+criar package model
+criar package model/entity
+
+definir a entidade
+definir o dao
+
+criar o layout com uma recycler view e um fab
+
+criar o recycler item com data bdinding
