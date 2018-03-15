@@ -6,8 +6,8 @@ import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
-import com.example.tiagoalexbastos.cmmvvmintro.model.config.AppDatabase;
-import com.example.tiagoalexbastos.cmmvvmintro.model.entity.Student;
+import com.example.tiagoalexbastos.cmmvvmintro.db.config.AppDatabase;
+import com.example.tiagoalexbastos.cmmvvmintro.db.entity.Student;
 
 import java.util.List;
 import java.util.Random;
@@ -33,7 +33,7 @@ public class MainActivityViewModel extends AndroidViewModel {
     }
 
     public void addStudent() {
-        int nMec = new Random().nextInt(100 - 1 + 1) + 1;
+        int nMec = new Random().nextInt(100000 - 1 + 1) + 1;
         String name = "Aluno " + String.valueOf(nMec);
         int idade = new Random().nextInt(25 - 18 + 1) + 18;
 
@@ -49,8 +49,6 @@ public class MainActivityViewModel extends AndroidViewModel {
         addAsyncTask(AppDatabase appDatabase) {
             db = appDatabase;
         }
-
-
 
         @Override
         protected Void doInBackground(Student... students) {

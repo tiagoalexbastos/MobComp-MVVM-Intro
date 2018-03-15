@@ -1,11 +1,11 @@
-package com.example.tiagoalexbastos.cmmvvmintro.model.dao;
+package com.example.tiagoalexbastos.cmmvvmintro.db.dao;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import com.example.tiagoalexbastos.cmmvvmintro.model.entity.Student;
+import com.example.tiagoalexbastos.cmmvvmintro.db.entity.Student;
 
 import java.util.List;
 

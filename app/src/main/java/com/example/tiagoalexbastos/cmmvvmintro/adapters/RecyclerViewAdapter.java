@@ -1,4 +1,4 @@
-package com.example.tiagoalexbastos.cmmvvmintro;
+package com.example.tiagoalexbastos.cmmvvmintro.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.tiagoalexbastos.cmmvvmintro.databinding.RecyclerItemStudentBinding;
-import com.example.tiagoalexbastos.cmmvvmintro.model.entity.Student;
+import com.example.tiagoalexbastos.cmmvvmintro.db.entity.Student;
 
 import java.util.List;
 

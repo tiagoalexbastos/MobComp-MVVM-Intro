@@ -1,12 +1,12 @@
-package com.example.tiagoalexbastos.cmmvvmintro.model.config;
+package com.example.tiagoalexbastos.cmmvvmintro.db.config;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import com.example.tiagoalexbastos.cmmvvmintro.model.dao.StudentDao;
-import com.example.tiagoalexbastos.cmmvvmintro.model.entity.Student;
+import com.example.tiagoalexbastos.cmmvvmintro.db.dao.StudentDao;
+import com.example.tiagoalexbastos.cmmvvmintro.db.entity.Student;
 
 /**
  * Created by tiagoalexbastos on 14-03-2018.

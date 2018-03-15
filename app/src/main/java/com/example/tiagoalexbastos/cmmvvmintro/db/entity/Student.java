@@ -1,4 +1,4 @@
-package com.example.tiagoalexbastos.cmmvvmintro.model.entity;
+package com.example.tiagoalexbastos.cmmvvmintro.db.entity;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
